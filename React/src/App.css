@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(232, 150, 82);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #61dafb;
+  margin: 10px;
+  padding: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-nav {
+  color:aquamarine;
+  font-size:larger;
+  padding: 10px;
+  border: 1px solid rgb(173, 164, 164);
+  background-color: yellow;
+}
+.App-nava:hover {
+  background-color: yellow;
+  color:aquamarine;
+}
+
+.App-nav:visited {
+  color: red;
+  background-color: yellow;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+td, th {
+  border: 1px solid rgb(173, 164, 164);
+  padding: 8px;
+}
+
+tr th {
+  border: 1px solid rgb(173, 164, 164);
+  padding: 8px;
+}
+
+input {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
